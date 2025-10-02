@@ -19,3 +19,14 @@
 
 **Execute the script**
 `./script.sh`
+
+# Configure the options in script
+- There are certains inputs prompt upon running the script which is mandatory and should be filled
+    - Name Your Cluster (Entered Desired name)
+    - Number of Nodes (Initially how many Nodes we want to launch within our cluster)
+    - Enter Minimum Nodes/Enter Maximum Nodes (These defines the range of nodes or scaling cluster)
+    - Enter AWS regions (Enter the same region where this ec2 is launched)
+    - Node Type (Choose the AWS node family according to your specifications)
+- ![Script-Input](https://github.com/sadiqueiqbal28/script-setup-eks-cluster/blob/main/images/script-input.png)
+- Upon Successful Creation of cluster
+    - ![Success](https://github.com/sadiqueiqbal28/script-setup-eks-cluster/blob/main/images/success.png)
